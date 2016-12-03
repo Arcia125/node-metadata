@@ -1,0 +1,29 @@
+<!doctype html>
+
+<head>
+    <style>
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    
+    .page-content {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80vw;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    </style>
+</head>
+
+<body>
+    <div class='page-content'>
+        <h5> Submit a file to view its filesize </h5>
+        <form action='/get-filesize' method='post' enctype='multipart/form-data'>
+            <input type='file' name='file'>
+            <input type='submit'>
+        </form>
+    </div>
+</body>
+
+</html>

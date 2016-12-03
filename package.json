@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Arcia125/node-metadata/issues"
   },
-  "homepage": "https://github.com/Arcia125/node-metadata#readme"
+  "homepage": "https://github.com/Arcia125/node-metadata#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
 }
